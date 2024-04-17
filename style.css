@@ -1,0 +1,91 @@
+header {
+    font-size: 2rem;
+    text-align: center;
+}
+
+body {
+    background-color: grey;
+}
+
+#inicio {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inicio #izquierda {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+}
+
+#inicio #derecha {
+    margin-left: 20px;
+    margin-right: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.linea-horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 20px;
+}
+
+#entre-lineas {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+
+.imagen {
+    width: 49%;
+    height: auto;
+    margin-top: 5px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+#imagenes .imagen{
+    width: 33%;
+}
+
+#prefooter {
+    font-size: 5rem;
+    text-align: center;
+}
+
+#prefooter .imagen {
+    width: 10%;
+    align-self: center;
+}
+
+#menu {
+    margin-top: 20px;
+}
+
+h6 {
+    font-size: 3rem;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 2rem;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    margin-top: 1rem;
+}
